@@ -1,0 +1,28 @@
+/* your styles here */
+.flex-container {
+  height: 30rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  /*flex-flow: row wrap-reverse;*/
+  justify-content: center;
+  align-content: stretch;
+}
+
+/*.flex-container {
+  display: flex;
+  justify-content: center;
+  
+}*/
+/*.flex-container div:nth-child(2n) {
+  height: 6rem;
+}*/
+.header {
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
